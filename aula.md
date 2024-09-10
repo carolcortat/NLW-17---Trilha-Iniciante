@@ -28,7 +28,14 @@ constantes
 string (texto) "" '' ``
 number
 function
+boulean true or false
 
 ## operadores
 
 operação de atribuição de valor =
+operador de contatenação +
+
+## functions
+criar, passar argumento
+executar
+arrow function
