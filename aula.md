@@ -5,7 +5,7 @@ Como um lego, vc ira utilizar peças para criar algoritmos, ou seja, para resolv
 ## Algoritmos: Sequencia de passos lógicos e finita para resolução de um problema
 
 ## Peças de uma linguagem
-Comentarios
+Comentarios //
 declaração de variaveis
 Operadores
 Tipos de dados
@@ -17,3 +17,18 @@ Estrutura de repetição
 Coletar os dados
 Processar os dados
 Apresentar os dados
+
+## escopos e variaveis
+
+variaveis globais e locais
+constantes
+
+## tipos de dados
+
+string (texto) "" '' ``
+number
+function
+
+## operadores
+
+operação de atribuição de valor =
