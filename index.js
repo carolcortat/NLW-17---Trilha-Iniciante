@@ -18,23 +18,23 @@
 //let metas = ["carol", "hello"]
 //console.log(metas[0] + ", " + metas[1])
 
-let meta = {
-    value: 'ler um livro por mês',
-    address: 2,
-    checked: false,
-    log: (info) => {
-        console.log(info)
-    }
-}
+// let meta = {
+//     value: 'ler um livro por mês',
+//     address: 2,
+//     checked: false,
+//     log: (info) => {
+//         console.log(info)
+//     }
+// }
 
-let metas = [
-    meta,
-    {
-        value: "caminhar 20 minutos todos os dias",
-        checked: false
-    }
-]
-console.log(metas[1].value)
+// let metas = [
+//     meta,
+//     {
+//         value: "caminhar 20 minutos todos os dias",
+//         checked: false
+//     }
+// ]
+// console.log(metas[1].value)
 
    
 // meta.value = "não é mais ler um livro"
@@ -45,3 +45,36 @@ console.log(metas[1].value)
 // const criarMeta = () => {}
 
 // function criarMeta() {}
+
+//return dentro da função ele acaba
+
+// const start = () => {
+//     let count = 0
+//     while(count < 10){
+//     console.log(count)
+//     count = count + 1
+//     }
+// }
+
+// start()
+
+const start = () => {
+
+   while(true){
+    let opcao = "sair"
+    switch(opcao){
+        case "cadastrar":
+            console.log("vamos cadastar")
+            break
+            case "listar":
+                console.log("vamos listar")
+                break
+                case "sair":
+                    return
+
+    }
+    }
+ }
+
+ start()
+
